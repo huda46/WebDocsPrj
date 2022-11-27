@@ -9,7 +9,7 @@ WebDocs website Assignment
 
 
 ## Website
-<img src="/home/huda/Documents/WebDocsPrj/assignment2a/website-content/Logo.jpeg" alt="logo" width="200" height="100" >
+<img src="assignment2a/website-content/Logo.jpeg" alt="logo" width="200" height="100" >
 <p>Our domain is: www.beFit.de </p>
 
 ### contact information
