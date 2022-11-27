@@ -9,8 +9,8 @@ WebDocs website Assignment
 
 
 ## Authors
-<img src="website-content/Logo.jpeg" alt="logo" width="400" height="200" >
-<p>Our domain is: www.beFit.de -> <a href='https://www.name.com/domain/search/BeFit.de'>domain checker</a></p>
+<img src="/home/huda/Documents/WebDocsPrj/assignment2a/website-content/Logo.jpeg" alt="logo" width="400" height="200" >
+<p>Our domain is: www.beFit.de -> </p>
 
 ### contact information
 <p>Karl-Liebknecht-Straße 136
