@@ -8,9 +8,9 @@ WebDocs website Assignment
 <p> Cami Gregi</p>
 
 
-## Authors
-<img src="/home/huda/Documents/WebDocsPrj/assignment2a/website-content/Logo.jpeg" alt="logo" width="400" height="200" >
-<p>Our domain is: www.beFit.de -> </p>
+## Website
+<img src="/home/huda/Documents/WebDocsPrj/assignment2a/website-content/Logo.jpeg" alt="logo" width="200" height="100" >
+<p>Our domain is: www.beFit.de </p>
 
 ### contact information
 <p>Karl-Liebknecht-Straße 136
