@@ -48,3 +48,23 @@ instructors, who are leaders in their fields, and begin training.</p>
 we want that reflected on our website, by giving this modern feeling. Also, it should have
 a navigation menu, modern feeling, computer and mobile friendly.</li>
 </ul> 
+
+### Division of work
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th> Developpment of the business description</th>
+        <th>Noel Leshica</th>
+    </tr>
+    <tr>
+        <th> Elaboration of the website requirements</th>
+        <th>Nour elhouda Benaida</th>
+    </tr>
+    <tr>
+        <th> Preparation of the website content</th>
+        <th>Cami Gregi</th>
+    </tr>
+</table>
