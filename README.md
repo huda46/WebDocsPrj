@@ -8,7 +8,7 @@ Group 2
 <p> Nour elhouda Benaida</p>
 <p> Cami Gregi</p>
 
-## Developpers
+## Developers
 Group 7
 <p> Yu-Chieh Lin</p>
 <p> Luke William Nitschke</p>
