@@ -3,6 +3,9 @@
     outline: 1px solid red !important;
 }
 */
+/* this is a stylesheet for the content that is the same in all HTML (<header>,<nav>,
+    <footer>). The design for <main> should be in an extra stylesheet.
+ */
 body{
     background-color: #919191;
 }
@@ -81,14 +84,14 @@ body{
     display: block;
 }
 
-/*--------------head */
+/*--------------header */
 
 .img-fluid{
     height: 46px;
     padding: 0px;
     margin: 0px;
 }
-.head{
+header{
     background-color: #F5F410;
     display: grid;
     grid-template-columns: 70px 1fr;
