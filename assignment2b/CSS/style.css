@@ -99,7 +99,9 @@ header{
 /*--------------main */
 
 main{
-                           background-color: white;
+    background-color: white;
+    padding: 10px;
+
 }
 
 /*--------------footer */
