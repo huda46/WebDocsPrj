@@ -6,19 +6,19 @@
 /* this is a stylesheet for the content that is the same in all HTML (<header>,<nav>,
     <footer>). The design for <main> should be in an extra stylesheet.
  */
-body{
-    background-color: #919191;
-}
+
 /*-------------navigation */
 /* Navbar container */
 * {
     margin: 0px;
 }
 
+
 .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
+    margin-left: 2px;
 }
 
 /* Links inside the navbar */
@@ -72,6 +72,7 @@ body{
     text-decoration: none;
     display: block;
     text-align: left;
+
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -85,28 +86,35 @@ body{
 }
 
 /*--------------header */
-
+#logo{
+    align-self: stretch;
+    background-color: #F5F410;
+}
 .img-fluid{
-    height: 46px;
-    padding: 0px;
-    margin: 0px;
+    height: 45px;
 }
 header{
-    background-color: #F5F410;
+    background-color: #333;
     display: grid;
     grid-template-columns: 70px 1fr;
+    margin: 10px;
+    border-style: solid;
+
 }
 /*--------------main */
 
 main{
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 
 }
 
 /*--------------footer */
 footer {
     background-color: #919191;
+    margin: 10px;
+    border-radius:  10px;
+    border-style: solid;
 
 }
 footer > div{
