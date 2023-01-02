@@ -3,11 +3,15 @@
     outline: 1px solid red !important;
 }
 */
+body{
+    background-color: #919191;
+}
 /*-------------navigation */
 /* Navbar container */
 * {
     margin: 0px;
 }
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -78,47 +82,60 @@
 }
 
 /*--------------head */
-main > div{
-    margin: 10px;
-}
+
 .img-fluid{
     height: 46px;
     padding: 0px;
     margin: 0px;
 }
 .head{
+    background-color: #F5F410;
     display: grid;
     grid-template-columns: 70px 1fr;
 }
 /*--------------main */
+main > div{
+    margin: 10px;
+}
+main{
+    background-color: white;
+}
 .location-button{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
 }
 .location-button > a > img {
-    height: 400px;
-    width: 100% !important;
+    height: 10em;
     object-fit: cover;
     object-position: top center;
 
 }
+img{
+    max-width: 100%;
+}
+#commercial{
+    display: block;
+    margin: 0 auto;
+}
 .location {
     position: relative;
-    top: -200px;
-    width: 100px;
+    top: -50%;
     margin: 0 auto;
     color: #333333;
     background: #dddddd;
     text-align: center;
+    max-width: 90%;
 
 }
 .content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .image-services{
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 50% 50%;
 }
 
 #parking-subway{
@@ -146,6 +163,10 @@ main > div{
 }
 .content > div ,.content > p{
     margin: 10px;
+
+}
+#home-text{
+    max-width:500px;
 }
 
 
