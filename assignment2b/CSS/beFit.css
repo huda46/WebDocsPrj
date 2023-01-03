@@ -78,3 +78,6 @@ img{
 #home-text{
     max-width:500px;
 }
+video{
+    max-width: 85vw;
+}
