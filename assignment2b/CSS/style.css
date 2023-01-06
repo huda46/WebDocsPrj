@@ -3,6 +3,7 @@
     outline: 1px solid red !important;
 }
 */
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
 /* this is a stylesheet for the content that is the same in all HTML (<header>,<nav>,
     <footer>). The design for <main> should be in an extra stylesheet.
  */
@@ -10,7 +11,10 @@
 /*-------------navigation */
 /* Navbar container */
 * {
-    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bf{
+    font-family: Lora bold;
 }
 
 
