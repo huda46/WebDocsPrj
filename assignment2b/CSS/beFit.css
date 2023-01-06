@@ -19,13 +19,15 @@
     border-color: black;
 
 }
+
+.location-button > a {
+    text-decoration: none;
+}
+
 img{
     max-width: 100%;
 }
-#commercial{
-    display: block;
-    margin: 0 auto;
-}
+
 .location {
     position: relative;
     top: -50%;
@@ -33,7 +35,10 @@ img{
     color: #333333;
     background: #dddddd;
     text-align: center;
-    max-width: 90%;
+    width: 70%;
+    border-radius: 10px;
+    font-family: Arial;
+    text-decoration: none;
 
 }
 .content{
@@ -78,6 +83,27 @@ img{
 #home-text{
     max-width:500px;
 }
+
 video{
-    max-width: 85vw;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80vw;
+    border-style: solid;
 }
+
+#video-text{
+    font-family: Century bold;
+    text-align: center;
+    top: 10%;
+    color: #F5F410;
+    position: absolute;
+}
+
+#outer-video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
