@@ -75,3 +75,24 @@ a navigation menu, modern feeling, computer and mobile friendly.</li>
         <th>Cami Gregi</th>
     </tr>
 </table>
+
+### Division of work [Developers]
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>content of ostkreuzWoman.html , registration.html , fillInPersonal.html and contactUs.html</th>
+        <th>Yu-Chieh Lin</th>
+    </tr>
+    <tr>
+        <th>Navigation, Footer and content of BeFit.html , privacy.html , termsOfServices.html , imprint.html and 
+        ostkreuz.html</th>
+        <th>Luke William Nitschke</th>
+    </tr>
+    <tr>
+        <th>content of ourProducts.html , about.html , cottbus.html and potsdam.html</th>
+        <th>Phong Vu Thanh</th>
+    </tr>
+</table>
