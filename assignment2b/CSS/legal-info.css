@@ -1,4 +1,10 @@
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+
 .legal-info{
     padding-left: 20px;
     padding-right: 20px;
+
+}
+h1{
+    font-family:    Lora ;
 }
