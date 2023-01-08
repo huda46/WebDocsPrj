@@ -107,7 +107,10 @@ table {
 th, td{
     border: 1px solid #111111;
     text-align: left;
+    
+    font-size: clamp(0.1rem, 2vw, 1.5rem);
     padding: 2px;
+
 }
 tr:nth-child(even){
     background-color: #444444;
