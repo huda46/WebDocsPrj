@@ -106,6 +106,7 @@ th, td{
     border: 1px solid #111111;
     text-align: left;
     padding: 8px;
+    font-size: clamp(0.1rem, 2vw, 1.5rem);
 }
 tr:nth-child(even){
     background-color: #444444;
