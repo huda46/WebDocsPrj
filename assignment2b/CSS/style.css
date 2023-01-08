@@ -109,6 +109,26 @@ main{
 
 }
 
+main h1 {
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+main.colorMain {
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background: rgba(245,244,16,255);
+}
+
+main.greyMain {
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background: rgba(237,238,238,255);
+}
+
 /*--------------footer */
 footer {
     background-color: #919191;
@@ -150,6 +170,13 @@ ul { list-style: none }
     text-align: center;
 }
 
+.horizontalContainer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
 
