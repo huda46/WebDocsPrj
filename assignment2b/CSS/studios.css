@@ -18,7 +18,6 @@
 
 #banner-text{
     font-family: Century bold;
-    font-size: 2em;
     text-align: center;
     top: 20%;
     color: #F5F410;
@@ -26,6 +25,7 @@
 
 }
 #banner-text > a{
+    display: inline-block;
     text-decoration: none;
     background-color: #F5F410;
     color: black;
@@ -35,7 +35,7 @@
 }
 
 #banner-text > p{
-    font-size: 60px;
+    font-size: clamp(2.5rem, 2vw, 3rem);
     text-outline: 1px black;
     text-shadow:  1px 1px 5px black;
 }
