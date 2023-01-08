@@ -1,6 +1,6 @@
 
 /* ---- Banner ---- */
-#img > a >  img {
+#banner-outer > img {
     border-style: solid;
     border-radius: 10px;
     border-color: black;
@@ -8,6 +8,38 @@
     width: 100%;
     object-fit: cover;
 }
+
+#banner-outer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#banner-text{
+    font-family: Century bold;
+    font-size: 2em;
+    text-align: center;
+    top: 20%;
+    color: #F5F410;
+    position: absolute;
+
+}
+#banner-text > a{
+    text-decoration: none;
+    background-color: #F5F410;
+    color: black;
+    border-style: solid;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+
+#banner-text > p{
+    font-size: 60px;
+    text-outline: 1px black;
+    text-shadow:  1px 1px 5px black;
+}
+
 
 /* ---- Notes : Facilities, Contact Information, and Prices ---- */
 .notes{
@@ -42,15 +74,26 @@
     margin: 5px;
 }
 /* ---- Table ---- */
+.div-table-outer{
+    display: flex;
+    justify-content: center;
+
+}
 .div-table{
     display: flex;
     justify-content: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+
+
 }
 
 .table{
     border-style: solid;
     border-radius: 10px;
     inline-size: max-content;
+    background-color: white;
 }
 
 table {
