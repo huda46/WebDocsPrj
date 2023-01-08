@@ -107,7 +107,7 @@ video{
 
 #video-text{
     font-family: Century bold;
-    font-size: 2em;
+    font-size: clamp(1.5rem, 2vw, 2rem);
     text-align: center;
     top: 10%;
     color: #F5F410;

@@ -134,8 +134,10 @@ footer > div{
 }
 ul { list-style: none }
 .footer{
-   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 .social_text{
     grid-column-start: 1;
