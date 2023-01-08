@@ -1,0 +1,76 @@
+
+/* ---- Banner ---- */
+#img > a >  img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---- Notes : Facilities, Contact Information, and Prices ---- */
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 10px;
+}
+.notes > section {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    position: relative;
+    border-radius: 10px;
+}
+.notes > section > h2{
+    position: absolute;
+    top: -12%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.notes > section > p{
+    position: absolute;
+    top: 5%;
+    background-color: white;
+    margin: 5px;
+}
+/* ---- Table ---- */
+.div-table{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    border-style: solid;
+    border-radius: 10px;
+    inline-size: max-content;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+th, td{
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #444444;
+}
+tr:nth-child(odd){
+    background-color: #88888888;
+}
+
+
+
+
