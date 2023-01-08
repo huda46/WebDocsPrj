@@ -152,7 +152,7 @@ ul { list-style: none }
     text-align: center;
 }
 .social_link{
-    display: flex
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
