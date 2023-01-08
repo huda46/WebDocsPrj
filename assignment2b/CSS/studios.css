@@ -50,11 +50,12 @@
     border-radius: 10px;
 }
 .notes > section {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-style: solid;
     position: relative;
     border-radius: 10px;
+    font-size: 1rem;
 }
 .notes > section > h2{
     position: absolute;
@@ -83,7 +84,7 @@
     display: flex;
     justify-content: center;
     background-color: gray;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 
 
@@ -94,6 +95,7 @@
     border-radius: 10px;
     inline-size: max-content;
     background-color: white;
+    font-size: clamp(0.1rem, 2vw, 0.8rem);
 }
 
 table {
@@ -105,8 +107,10 @@ table {
 th, td{
     border: 1px solid #111111;
     text-align: left;
-    padding: 8px;
+    
     font-size: clamp(0.1rem, 2vw, 1.5rem);
+    padding: 2px;
+
 }
 tr:nth-child(even){
     background-color: #444444;
