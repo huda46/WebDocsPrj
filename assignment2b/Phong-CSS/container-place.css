@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+/* Centered text */
+.text-position-in-image {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the image responsive */
+.container img {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: whitesmoke;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-item{
+    flex: 1;
+}
+.flex-container-item fieldset{
+    width: 100%;
+    height: 200px;
+}
+.justify-content-space-evenly {
+    padding: 15px;
+    gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container-item fieldset{
+        width: 100%;
+        height: 100%;
+    }
+}
