@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BeFit</title>
+    <title>Application | BeFit</title>
     <meta name="description" content="Principal page with logo, all links to other pages, news and link to registration.">
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/fillInfoPersonal.css" />
 
 </head>
 <body>
@@ -34,8 +35,21 @@
     </nav>
 </header>
 
-    <main>
-        <h1>Fill Info of Personal</h1>
+    <main class="colorMain">
+        <div class="horizontalContainer formBox">
+            <p class="formTitle">Please fill out the information below</p>
+            <input class="formField formFieldName" type="text" id="fname" placeholder="First Name">
+            <input class="formField formFieldName" type="text" id="lname" placeholder="Last Name">
+            <input class="formField formFieldBirth" type="text" id="birth" placeholder="Date of Birth">
+            <input class="formField formEmpty" type="text" disabled>
+            <input class="formField formFieldStreet" type="text" id="street" placeholder="Street">
+            <input class="formField formFieldStreetNum" type="text" id="steetnum" placeholder="Nº">
+            <input class="formField formFieldPostal" type="text" id="postal" placeholder="Postcode">
+            <input class="formField formFieldCity" type="text" id="city" placeholder="City">
+            <input class="formField" type="text" id="email" placeholder="Email address">
+            <button onclick="window.location.href='fillInfoPersonal.html';">Send</button>
+            <p class="formText">*An email with your data will be sent to us so we have your contract ready for your first day.</p>
+        </div>
     </main>
 
     <footer class="footer">
