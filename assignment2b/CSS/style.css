@@ -136,54 +136,12 @@ main.greyMain {
     background: rgba(237,238,238,255);
 }
 
-/*--------------footer */
-footer {
-    background-color: #919191;
-    margin: 10px;
-    border-radius:  10px;
-    border-style: solid;
-
-}
-footer > div{
-    margin: 30px;
-}
 
 
-.footer_services > li, .footer_link > li > a{
-    color: #333333;
-}
-ul { list-style: none }
-.footer{
-   display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-.social_text{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    display: grid;
 
 
-}
-.connect_with_us{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: center;
-}
-.social_link{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 
-.horizontalContainer {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 
 
