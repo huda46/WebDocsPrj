@@ -1,7 +1,7 @@
 main.colorMain {
     margin: 10px;
     border-radius: 10px;
-    background: rgba(245,244,16,255);
+    background: #F5F410;
 }
 
 .horizontalContainer {
@@ -47,7 +47,7 @@ div.formBox p.formText {
 }
 
 div.formBox button:hover {
-    background: rgba(245,244,16,255);
+    background: #F5F410;
 }
 
 input.formField {
@@ -62,8 +62,7 @@ input.formFieldName, input.formFieldBirth, input.formEmpty {
 }
 
 input.formEmpty {
-    border-color: transparent;
-    background: transparent;
+   Opacity: 0;
 }
 
 input.formFieldStreet {
