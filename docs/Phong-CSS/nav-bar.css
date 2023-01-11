@@ -1,4 +1,7 @@
 .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;;
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
@@ -7,7 +10,7 @@
 
 /* Links inside the navbar */
 .navbar a {
-    float: right;
+    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -38,7 +41,8 @@
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #F5F410;
+    color: black;
 }
 
 /* Dropdown content (hidden by default) */
@@ -53,7 +57,6 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -83,6 +86,7 @@
 }
 
 header {
+    z-index: 1;
     background-color: #333;
     display: grid;
     grid-template-columns: 70px 1fr;

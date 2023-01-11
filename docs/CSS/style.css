@@ -27,6 +27,8 @@
 
 /* Links inside the navbar */
 .navbar a {
+    display: flex;
+    justify-content: center;
     float: right;
     font-size: 16px;
     color: white;
