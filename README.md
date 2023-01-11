@@ -11,7 +11,7 @@ Group 2
 ## Developers
 Group 7
 <p> Yu-Chieh Lin</p>
-<p> Luke William Nitschke</p>
+<p> Luke William Nitschke [venttis-1](https://github.com/venttis-1)</p>
 <p> Phong Vu Thanh</p>
 
 

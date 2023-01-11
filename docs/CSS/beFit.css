@@ -63,10 +63,7 @@ img{
 }
 
 
-#commercial{
-     display: block;
-     margin: 0 auto;
- }
+
 #top-row-img{;
     display: flex;
     justify-content: center;
@@ -101,6 +98,12 @@ img{
     margin: 10px;
 }
 
+#commercial{
+    display: block;
+    margin: 0 auto;
+}
+
+
 video{
     border-radius: 10px;
     overflow: hidden;
@@ -111,11 +114,13 @@ video{
 
 #video-text{
     font-family: Century bold;
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(0.5rem, 3vw, 7rem);
     text-align: center;
-    top: 10%;
+    top: 0;
     color: #F5F410;
     position: absolute;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    user-select: none;
 }
 
 #outer-video{
@@ -123,6 +128,7 @@ video{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+
 }
 
 
