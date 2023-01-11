@@ -1,5 +1,5 @@
 
-
+/* the buttons to the locations */
 .location-button{
     display: flex;
     justify-content: center;
@@ -49,7 +49,9 @@ img{
     font-family: Arial;
     text-decoration: none;
 
-}
+}/* the buttons to the locations */
+
+/* Text and the imgs next to it */
 .content{
     display: flex;
     justify-content: center;
@@ -90,14 +92,14 @@ img{
 
 }
 
-
-
-
 #home-text{
     max-width:500px;
     margin: 10px;
-}
+}/* Text and the imgs next to it */
 
+
+
+/* Video on page */
 #commercial{
     display: block;
     margin: 0 auto;
@@ -129,6 +131,7 @@ video{
     justify-content: center;
     padding-bottom: 10px;
 
-}
+}/* Video on page */
+
 
 
