@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #EDEDED;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+footer>div:nth-child(1) {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.social {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.flex-items {
+    justify-content: center;
+}
+.icons{
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    footer>div:nth-child(1) {
+        margin: 15px;
+    }
+}

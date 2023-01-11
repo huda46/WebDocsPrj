@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Productid>0001</Productid>
+    <ProductName>Technogym</ProductName>
+    <Description>selling equipment and digital technologies for fitness</Description>
+    <Origin>Italy</Origin>
+    <Brand>Sunny Farm</Brand>
+    <Stock>100</Stock>
+    <Category>Sport equipment</Category>
+    <Popularity>8</Popularity>
+    <Image>technogym.jpg</Image>
+  </row>
+  <row>
+    <Productid>0002</Productid>
+    <ProductName>BiotechUSA</ProductName>
+    <Price>5</Price>
+    <Unit>kg</Unit>
+    <Discount>-30%</Discount>
+    <Description>Protein powder.</Description>
+    <Origin>USA</Origin>
+    <Brand>BiotechUSA</Brand>
+    <Stock>100</Stock>
+    <Category>Protein</Category>
+    <Popularity>7</Popularity>
+    <Image>biotechusa.jpg</Image>
+  </row>
+  <row>
+    <Productid>0003</Productid>
+    <ProductName>Bodyengineers</ProductName>
+    <Price>1.99</Price>
+    <Unit>kg</Unit>
+    <Discount>0</Discount>
+    <Description>3.8% fat</Description>
+    <Origin>Netherland</Origin>
+    <Brand>Bodyengineers</Brand>
+    <Stock>50</Stock>
+    <Category>Protein</Category>
+    <Popularity>5</Popularity>
+    <Image>Bodyengineers.jpg</Image>
+  </row>
+  <row>
+    <Productid>0004</Productid>
+    <ProductName>PANATTA</ProductName>
+    <Discount>0</Discount>
+    <Description>Sport equipment</Description>
+    <Origin>Italy</Origin>
+    <Brand>Bauers</Brand>
+    <Stock>105</Stock>
+    <Category>Sport equipment</Category>
+    <Popularity>5</Popularity>
+    <Image>pannata.jpg</Image>
+  </row>
+</root>

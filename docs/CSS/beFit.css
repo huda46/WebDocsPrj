@@ -1,0 +1,124 @@
+
+
+.location-button{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(145,145,145,0.76);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    flex-wrap: wrap;
+
+}
+.location-button > a > img {
+    height: 10em;
+    object-fit: cover;
+    object-position: top center;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.location-button > a {
+    text-decoration: none;
+}
+
+.location-button > a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+img{
+    max-width: 100%;
+    background-color: black;
+}
+
+.location {
+    position: relative;
+    top: -50%;
+    margin: 0 auto;
+    color: #333333;
+    background: #dddddd;
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+    font-family: Arial;
+    text-decoration: none;
+
+}
+
+
+#commercial{
+     display: block;
+     margin: 0 auto;
+ }
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.image-services{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#parking-subway{
+    display: grid;
+    grid-template-rows: 100px 100px;
+}
+
+
+#parking-subway > img{
+    height: 100px;
+    max-width: 200px;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: top center;
+}
+.image-services > div >img{
+    height: 200px;
+    max-width: 200px;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: top center;
+    border-style: solid;
+}
+.image-services > div{
+    margin: 10px;
+}
+.content > div ,.content > p{
+    margin: 10px;
+
+}
+#home-text{
+    max-width:500px;
+}
+
+video{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80vw;
+    border-style: solid;
+    background-color: black;
+}
+
+#video-text{
+    font-family: Century bold;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    text-align: center;
+    top: 10%;
+    color: #F5F410;
+    position: absolute;
+}
+
+#outer-video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+

@@ -1,0 +1,124 @@
+
+/* ---- Banner ---- */
+#banner-outer > img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    height: 40vh;
+    width: 70vw;
+    object-fit: cover;
+}
+
+#banner-outer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#banner-text{
+    font-family: Century bold;
+    text-align: center;
+    top: 20%;
+    color: #F5F410;
+    position: absolute;
+
+}
+#banner-text > a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F5F410;
+    color: black;
+    border-style: solid;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+
+#banner-text > p{
+    font-size: clamp(2.5rem, 2vw, 3rem);
+    text-outline: 1px black;
+    text-shadow:  1px 1px 5px black;
+}
+
+
+/* ---- Notes : Facilities, Contact Information, and Prices ---- */
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 10px;
+}
+.notes > section {
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    position: relative;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.notes > section > h2{
+    position: absolute;
+    top: -12%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.notes > section > p{
+    position: absolute;
+    top: 5%;
+    background-color: white;
+    margin: 5px;
+}
+/* ---- Table ---- */
+.div-table-outer{
+    display: flex;
+    justify-content: center;
+
+}
+.div-table{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.table{
+    border-style: solid;
+    border-radius: 10px;
+    inline-size: max-content;
+    background-color: white;
+    font-size: clamp(0.1rem, 2vw, 0.8rem);
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+th, td{
+    border: 1px solid #111111;
+    text-align: left;
+    
+    font-size: clamp(0.1rem, 2vw, 1.5rem);
+    padding: 2px;
+
+}
+tr:nth-child(even){
+    background-color: #444444;
+}
+tr:nth-child(odd){
+    background-color: #88888888;
+}
+
+
+
+
