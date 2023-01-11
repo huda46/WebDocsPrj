@@ -33,6 +33,11 @@ footer>div:nth-child(1) {
 ul {
     list-style: none;
 }
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     footer {
