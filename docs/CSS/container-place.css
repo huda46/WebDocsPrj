@@ -30,6 +30,11 @@ main>div {
     max-width: 100%;
     border: solid;
 }
+.register-img{
+    max-height:  80vh;
+    max-width: 90vw;
+    object-fit: fill;
+}
 
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
