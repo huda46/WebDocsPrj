@@ -3,6 +3,8 @@
 .location-button{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 80vw;;
     background-color: rgba(145,145,145,0.76);
     margin-bottom: 10px;
     border-radius: 10px;
@@ -31,7 +33,7 @@
 
 
 img{
-    max-width: 100%;
+    max-width: 80vw;
     background-color: black;
 }
 
@@ -57,7 +59,11 @@ img{
 .content{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     justify-content: center;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    width: 80vw;
 
 }
 .image-services{
