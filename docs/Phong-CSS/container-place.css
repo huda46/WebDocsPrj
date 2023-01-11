@@ -27,6 +27,7 @@ main>div {
 .container img {
     max-width: 100%;
     height: 100%;
+    border: solid;
 }
 
 /* Style the button and place it in the middle of the container/image */
