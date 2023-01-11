@@ -6,7 +6,10 @@
     <meta name="description" content="Principal page with logo, all links to other pages, news and link to registration.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/studios.css">
+    <link rel="stylesheet" href="Phong-CSS/course-plan.css" />
+    <link rel="stylesheet" href="Phong-CSS/container-place.css" />
+    <link rel="stylesheet" href="Phong-CSS/footer.css" />
+    <script src="https://kit.fontawesome.com/38db35dbd3.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -37,160 +40,190 @@
 </header>
 
     <main>
-        <div id="banner-outer">
-            <img src="./assignment2a/website-content/Images/ostkreuz2.jpg" >
-            <div id="banner-text">
-                <p>Aktion! Only for a short time!</p>
-                <a href="registration.html">Register now!</a>
+        <div>
+            <div class="container center-image">
+                <img src="../assignment2a/website-content/Images/ostkreuz.jpg" alt="cottbus">
+                <div class="text-position-in-image" style="font-size:3vw">Aktion! Only for a short time!</div>
+                <button onclick="window.location.href='./registration.html';" class="btn">Registration now!</button>
             </div>
+            <div class="flex-container justify-content-space-evenly">
+                <div class="flex-container-item">
+                    <form>
+                        <fieldset>
+                            <legend>Facilities</legend>
+                            <p>All-inclusive</p>
+                            <p>All-inclusive
+                                Now new: Solariumflat | 3 hours
+                                Free parking | Solarium | Drinksflat |
+                                Showers | Individual training
+                                plans with certified trainers |
+                                Separate men's and women's sauna |
+                                Aerobics classes | Nutritional
+                                advice | Indoor cycling | W-Lan
+                                hotspot</p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="flex-container-item">
+                    <form>
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <p>
+                                You can find us here:
+                            </p>
+                            <p>
+                                Tel:030-68 08 44 02</p>
+                            <p>Neckarstraße 24-25 12053 Berlin</p>
+                            <p>Mo – Fr 7-23 h
+                                Sa – So 9-22 h</p>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="flex-container-item">
+                    <form>
+                        <fieldset>
+                            <legend>Prices</legend>
+                            <p>Basic - 19,90€/month</p>
+                            <p>All inclusive - 29,90€/month</p>
+                        </fieldset>
+                    </form>
+                </div>
 
-        </div>
-        <div class="notes">
-            <section>
-                <h2>Facilities</h2>
-                <p>All-inclusive<br>
-                <br>
-                Free parking | Solarium | Drinksflat |
-                Showers | Individual training
-                plans with certified trainers |
-                Separate men's and women's sauna |
-                Aerobics classes | Nutritional
-                advice | Indoor cycling | W-Lan
-                hotspot</p>
-            </section>
-            <section>
-                <h2>Contact Information</h2>
-                <p>Contact Information<br>
-                <br>
-                    You can find us here:<br>
-                    <br>
-                    Tel:030-68 08 44 02<br>
-                    <br>
-                    Neckarstraße 24-25<br>
-                    12053 Berlin<br>
-                    <br>
-                    Mo – Fr 7-23 h<br>
-                    Sa – So 9-22 h</p>
-            </section>
-            <section>
-                <h2>Prices</h2>
-                <p>Basic - 19,90€/month<br>
-                <br>
-                    All inclusive - 29,90€/month</p>
-            </section>
-        </div>
-        <div class="div-table-outer">
-        <div class="div-table ">
-        <section class="table">
-            <table>
-                <tr>
-                    <th>Time</th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                    <th>Sunday</th>
-                </tr>
-                <tr>
-                    <td>18:00</td>
-                    <td>Boxing</td>
-                    <td>Kroce</td>
-                    <td></td>
-                    <td>Boxing</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>19:00</td>
-                    <td>Yonga</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>20:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>21:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>22:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </section>
-        </div>
+            </div>
+            <div style="padding: 15px; overflow-x:auto;">
+                <form>
+                    <fieldset>
+                        <legend>Course Plan</legend>
+                        <table id="course-plan">
+                            <tr>
+                                <th>Time</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                            </tr>
+                            <tr>
+                                <td>18:00</td>
+                                <td>Boxing</td>
+                                <td>Korce</td>
+                                <td></td>
+                                <td>Boxing</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>19:00</td>
+                                <td>Yoga</td>
+                                <td></td>
+                                <td></td>
+                                <td> </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>20:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>21:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>22:00</td>
+                                <td></td>
+                                <td> </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>23:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>24:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </main>
 
-    <footer class="footer">
-        <div>
-            <p>Studios</p>
-            <ul class="footer_link">
-                <li><a href="cottbus.html">Cottbus</a></li>
-                <li><a href="potsdam.html">Potsdam</a></li>
-                <li><a href="ostkreuz.html">Ostkreuz</a></li>
-                <li><a href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
-            </ul>
-        </div>
+    <footer>
+        <div class="footer">
+            <div>
+                <p>Studios</p>
+                <ul class="footer_link">
+                    <li><a href="cottbus.html">Cottbus</a></li>
+                    <li><a href="potsdam.html">Potsdam</a></li>
+                    <li><a href="ostkreuz.html">Ostkreuz</a></li>
+                    <li><a href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
+                </ul>
+            </div>
 
-        <div>
-            <p>Services</p>
-            <ul class="footer_services">
-                <li>Fitness equipements</li>
-                <li>Cardio</li>
-                <li>Courses</li>
-                <li>Spa</li>
-                <li>Sauna</li>
-                <li>Drinks</li>
-                <li>WIFI</li>
-            </ul>
+            <div>
+                <p>Services</p>
+                <ul class="footer_services">
+                    <li>Fitness equipements</li>
+                    <li>Cardio</li>
+                    <li>Courses</li>
+                    <li>Spa</li>
+                    <li>Sauna</li>
+                    <li>Drinks</li>
+                    <li>WIFI</li>
+                </ul>
+            </div>
+            <div>
+                <p>Information</p>
+                <ul class="">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="termsOfServices.html">Terms of Services</a></li>
+                    <li><a href="imprint.html">Impressum</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
         <div>
-            <p>Information</p>
-            <ul class="footer_link">
-                <li><a href="about.html">About</a></li>
-                <li><a href="termsOfServices.html">Terms of Services</a></li>
-                <li><a href="imprint.html">Impressum</a></li>
-                <li><a href="privacy.html">Privacy</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-
-
-        <div class="social_text">
-             <p class="connect_with_us"> Connect with us</p>
-            <div class="social_link">
-                <a href="about.html">Facebook</a>
-                <a href="about.html">Instagram</a>
-                <a href="about.html">Twitter</a>
-                <a href="about.html">SnapChat</a>
+            <h2 class="social"> Connect with us</h2>
+            <div class="social flex-items">
+                <i class="fa-brands fa-facebook icons"></i>
+                <i class="fa-brands fa-instagram icons"></i>
+                <i class="fa-brands fa-twitter icons"></i>
+                <i class="fa-brands fa-snapchat icons"></i>
             </div>
         </div>
     </footer>
