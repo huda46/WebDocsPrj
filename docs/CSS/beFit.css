@@ -115,8 +115,8 @@ video{
 }
 
 #video-text{
-    font-family: Century bold;
-    font-size: clamp(0.5rem, 3vw, 7rem);
+    font-family: "Century";
+    font-size: clamp(0.4rem, 2.5vw, 7rem);
     text-align: center;
     top: 0;
     color: #F5F410;
