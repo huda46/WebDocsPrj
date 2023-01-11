@@ -12,7 +12,7 @@ main h1 {
 main.greyMain {
     margin: 10px;
     border-radius: 10px;
-    background: rgba(237,238,238,255);
+    background: whitesmoke;
 }
 
 .contactGrid {
