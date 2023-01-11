@@ -2,8 +2,8 @@
 
 .navbar {
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;;
+    justify-content: flex-end;
+    flex-wrap: wrap;
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
@@ -34,10 +34,8 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
-    /* Important for vertical align on mobile phones */
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */

@@ -1,0 +1,68 @@
+/*
+* {
+    outline: 1px solid red !important;
+}
+*/
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+/* this is a stylesheet for the content that is the same in all HTML (<header>,<nav>,
+    <footer>). The design for <main> should be in an extra stylesheet.
+ */
+
+/*-------------navigation */
+/* Navbar container */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bf{
+    font-family: Lora bold;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+/*--------------header */
+#logo{
+    align-self: stretch;
+    background-color: #F5F410;
+}
+.img-fluid{
+    height: 45px;
+}
+header{
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin: 10px;
+    border-style: solid;
+
+}
+/*--------------main */
+
+main{
+    background-color: white;
+
+
+}
+
+
+
+
+
+
