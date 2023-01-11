@@ -1,5 +1,18 @@
 main {
+    padding-top: 10px;
     padding-left: 80px;
+}
+
+main h1 {
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+main.greyMain {
+    margin: 10px;
+    border-radius: 10px;
+    background: rgba(237,238,238,255);
 }
 
 .contactGrid {
@@ -15,7 +28,6 @@ p.contactInfo {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    height: 150px;
     width: 200px;
     font-family: Arial;
     /*box-shadow: 0px 0px 10px #888888;*/

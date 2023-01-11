@@ -1,3 +1,17 @@
+main.colorMain {
+    margin: 10px;
+    border-radius: 10px;
+    background: rgba(245,244,16,255);
+}
+
+.horizontalContainer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 div.formBox {
     width: 70%;
     font-family: Arial;
