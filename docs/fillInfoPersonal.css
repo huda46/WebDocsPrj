@@ -1,0 +1,67 @@
+div.formBox {
+    width: 70%;
+    font-family: Arial;
+}
+
+div.formBox button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*position: relative;*/
+    background: white;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+    font-family: Arial;
+    font-size: 1rem;
+    border: 2px solid;
+}
+
+div.formBox p.formTitle {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+div.formBox p.formText {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.formBox button:hover {
+    background: rgba(245,244,16,255);
+}
+
+input.formField {
+    width: 93%;
+    margin: 10px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+
+input.formFieldName, input.formFieldBirth, input.formEmpty {
+    width: 45%;
+}
+
+input.formEmpty {
+    border-color: transparent;
+    background: transparent;
+}
+
+input.formFieldStreet {
+    width: 70%;
+}
+
+input.formFieldStreetNum {
+    width: 20%;
+}
+
+input.formFieldPostal {
+    width: 35%;
+}
+
+input.formFieldCity {
+    width: 55%;
+}
