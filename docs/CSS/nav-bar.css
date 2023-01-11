@@ -1,3 +1,5 @@
+/* this is a stylesheet for the header and the navigation bar. */
+
 .navbar {
     display: flex;
     flex-direction: row-reverse;
