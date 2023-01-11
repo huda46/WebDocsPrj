@@ -21,6 +21,7 @@ div.formBox button {
     margin-top: 10px;
     margin-bottom: 10px;
     /*position: relative;*/
+    text-align: center;
     background: white;
     width: 20%;
     border-radius: 10px;
@@ -28,6 +29,7 @@ div.formBox button {
     font-family: Arial;
     font-size: 1rem;
     border: 2px solid;
+    word-wrap: break-word;
 }
 
 div.formBox p.formTitle {
