@@ -78,7 +78,7 @@ img{
     flex-direction: column;
    aspect-ratio: 2/1;
     justify-content: space-around;
-    height: 11vh;
+    height: 6em;
     border: 0.2em solid #EDEDED;
 }
 #bottom-row-img{
@@ -88,7 +88,7 @@ img{
 }
 .img_ratio_1-1{
     aspect-ratio: 1/1;
-    height: 22vh;
+    height: 12em;
     border: 0.2em solid #EDEDED;
 
 }
