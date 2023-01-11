@@ -17,6 +17,7 @@
     transform: translate(-50%, -50%);
     color: yellow;
     font-size: clamp(.3rem, 3vw, 2rem);
+    text-shadow: black 0px 0px 10px;
 
 }
 
@@ -29,6 +30,11 @@ main>div {
 .container img {
     max-width: 100%;
     border: solid;
+}
+.register-img{
+    max-height:  80vh;
+    max-width: 90vw;
+    object-fit: fill;
 }
 
 /* Style the button and place it in the middle of the container/image */
