@@ -1,4 +1,8 @@
-main h1 {
+h1{
+    text-align: center;
+}
+
+main h2 {
     font-family: Arial;
     font-size: 2rem;
     font-weight: normal;

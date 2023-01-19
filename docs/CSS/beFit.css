@@ -1,13 +1,19 @@
-
-/* the buttons to the locations */
-.location-button{
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+h1,h2{
+    text-align: center;
+}
+#our-location{
     margin: 0 auto;
     width: 80vw;;
     background-color:#EDEDED;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+/* the buttons to the locations */
+.location-button{
+    display: flex;
+    justify-content: center;
+
+
     flex-wrap: wrap;
 
 }
