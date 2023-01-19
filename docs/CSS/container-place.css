@@ -3,6 +3,10 @@
 }
 
 /* Container needed to position the button. Adjust the width as needed */
+h1{
+    text-align: center;
+}
+
 .container {
     position: relative;
     width: 50%;
