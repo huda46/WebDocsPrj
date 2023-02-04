@@ -1,13 +1,30 @@
- window.onload =  function breadcrumb() {
+/*
+breadcrumb();
+ */
+
+window.addEventListener("load", breadcrumb);
+
+function breadcrumb() {
     var url = document.referrer;
     var breadcrumb = document.getElementById("breadcrumb");
 
     // Create the breadcrumb
     let a = document.createElement("a");
     a.href = url;
-
     // Text to display in the breadcrumb
-    let text = a.pathname.split("/").pop();
+    let text = getName_ofHTML(url);
+    // Create the breadcrumb
+    a.innerHTML = text;
+    breadcrumb.appendChild(a);
+    let span = document.createElement("span");
+    span.innerHTML = " > ";
+    breadcrumb.appendChild(span);
+
+}
+
+function getName_ofHTML(str) {
+
+    let text = str.split("/").pop();
     text = text.replace(".html", "");
 
     switch (text) {
@@ -38,24 +55,22 @@
         case "ostkreuzWoman":
             text = "Ostkreuz Woman";
             break;
+        case "potsdam":
+            text = "Postdam";
+            break;
         case "ourProducts":
             text = "Our Products";
             break;
         case "fillInfoPersonal":
             text = "Fill Info Personal";
             break;
-        case "reistration":
+        case "registration":
             text = "Registration";
             break;
         default:
             text = "Error";
             break;
     }
-    // Create the breadcrumb
-    a.innerHTML = text;
-    breadcrumb.appendChild(a);
-    let span = document.createElement("span");
-    span.innerHTML = " > ";
-    breadcrumb.appendChild(span);
-
+    return text;
 }
+
