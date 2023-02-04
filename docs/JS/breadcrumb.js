@@ -52,7 +52,7 @@
             break;
     }
     // Create the breadcrumb
-    a.innerHTML = url;
+    a.innerHTML = text;
     breadcrumb.appendChild(a);
     let span = document.createElement("span");
     span.innerHTML = " > ";
