@@ -1,13 +1,15 @@
 /*
 breadcrumb();
  */
+window.addEventListener("load", storage_location);
 
 window.addEventListener("load", breadcrumb);
+
 
 function breadcrumb() {
     var url = document.referrer;
     var breadcrumb = document.getElementById("breadcrumb");
-
+    window.addEventListener("load", load_location(breadcrumb));
     // Create the breadcrumb
     let a = document.createElement("a");
     a.href = url;
@@ -19,6 +21,7 @@ function breadcrumb() {
     let span = document.createElement("span");
     span.innerHTML = " > ";
     breadcrumb.appendChild(span);
+
 
 }
 
@@ -72,5 +75,44 @@ function getName_ofHTML(str) {
             break;
     }
     return text;
+}
+
+function storage_location() {
+
+    let path = window.location.pathname;
+    switch (getName_ofHTML(path)) {
+        case "Cottbus":
+        case "Ostkreuz":
+        case "Potsdam":
+        case "Ostkreuz Woman":
+            var data = {name: getName_ofHTML(path), path: "" + path};
+            localStorage.setItem('path', JSON.stringify(data));
+            break;
+        default:
+            break;
+    }
+}
+
+function load_location(id) {
+    let path1 = window.location.pathname;
+    switch (getName_ofHTML(path1)) {
+        case "Fill Info Personal":
+            let data = localStorage.getItem('path');
+            var path = JSON.parse(data);
+
+            let a = document.createElement("a");
+            a.innerHTML = path.name;
+            a.href = path.path;
+
+            let span = document.createElement("span");
+            span.innerHTML = " > ";
+
+            id.appendChild(a);
+            id.appendChild(span);
+        default:
+            break;
+    }
+
+
 }
 
