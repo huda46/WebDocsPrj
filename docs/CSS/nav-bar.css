@@ -96,3 +96,11 @@ header {
     border-style: solid;
 
 }
+#breadcrumb {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+}
