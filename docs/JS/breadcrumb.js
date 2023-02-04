@@ -1,12 +1,9 @@
-
-
-
- function breadcrumb() {
+ window.onload =  function breadcrumb() {
     var url = document.referrer;
-
+    var breadcrumb = document.getElementById("breadcrumb");
 
     // Create the breadcrumb
-    var a = document.createElement("a");
+    let a = document.createElement("a");
     a.href = url;
 
     // Text to display in the breadcrumb
@@ -29,7 +26,7 @@
         case "privacy":
             text = "Privacy";
             break;
-        case "termsOfService":
+        case "termsOfServices":
             text = "Terms of Service";
             break;
         case "cottbus":
@@ -55,10 +52,10 @@
             break;
     }
     // Create the breadcrumb
-    a.innerHTML = text
-    document.getElementById("breadcrumb").appendChild(a);
-    var span = document.createElement("span");
+    a.innerHTML = url;
+    breadcrumb.appendChild(a);
+    let span = document.createElement("span");
     span.innerHTML = " > ";
-    document.getElementById("breadcrumb").appendChild(span);
+    breadcrumb.appendChild(span);
 
 }
