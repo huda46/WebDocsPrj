@@ -14,7 +14,7 @@
 
 
 </head>
-<body>
+<body vocab="http://schema.org/">
 
 <header>
     <div id="logo">
@@ -22,19 +22,19 @@
     </div>
     <nav>
         <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="index.html#services">Services</a>
-            <a href="products/ourProducts.html">Our Products</a>
-            <a href="about.html">About</a>
+            <a property="url" href="index.html">Home</a>
+            <a property="url" href="index.html#services">Services</a>
+            <a property="url" href="products/ourProducts.html">Our Products</a>
+            <a property="url" href="about.html">About</a>
             <div class="dropdown">
                 <button class="dropbtn">&#9660;Studios
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="studios/cottbus.html">Cottbus</a>
-                    <a href="studios/potsdam.html">Potsdam</a>
-                    <a href="studios/ostkreuz.html">Ostkreuz</a>
-                    <a href="studios/ostkreuzWoman.html">Ostkreuz <br>Woman</a>
+                    <a property="url" href="studios/cottbus.html">Cottbus</a>
+                    <a property="url" href="studios/potsdam.html">Potsdam</a>
+                    <a property="url" href="studios/ostkreuz.html">Ostkreuz</a>
+                    <a property="url" href="studios/ostkreuzWoman.html">Ostkreuz <br>Woman</a>
                 </div>
             </div>
         </div>
@@ -103,33 +103,33 @@
             <div>
                 <p>Studios</p>
                 <ul class="footer_link">
-                    <li><a href="studios/cottbus.html">Cottbus</a></li>
-                    <li><a href="studios/potsdam.html">Potsdam</a></li>
-                    <li><a href="studios/ostkreuz.html">Ostkreuz</a></li>
-                    <li><a href="studios/ostkreuzWoman.html">Ostkreuz Woman</a></li>
+                    <li><a property="url" href="studios/cottbus.html">Cottbus</a></li>
+                    <li><a property="url" href="studios/potsdam.html">Potsdam</a></li>
+                    <li><a property="url" href="studios/ostkreuz.html">Ostkreuz</a></li>
+                    <li><a property="url" href="studios/ostkreuzWoman.html">Ostkreuz Woman</a></li>
                 </ul>
             </div>
 
             <div>
                 <p>Services</p>
-                <ul class="footer_services">
-                    <li>Fitness equipements</li>
-                    <li>Cardio</li>
-                    <li>Courses</li>
-                    <li>Spa</li>
-                    <li>Sauna</li>
-                    <li>Drinks</li>
-                    <li>WIFI</li>
-                </ul>
+                <ul property="hasOfferCatalog" typeof="OfferCatalog" class="footer_services">
+                <li property="itemOffered" typeof="Service"><span property="name">Fitness equipements</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Cardio</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Courses</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Spa</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Sauna</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Drinks</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">WIFI</span></li>
+            </ul>
             </div>
             <div>
                 <p>Information</p>
                 <ul class="">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="termsOfServices.html">Terms of Services</a></li>
-                    <li><a href="imprint.html">Imprint</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a property="url" href="about.html">About</a></li>
+                    <li><a property="url" href="termsOfServices.html">Terms of Services</a></li>
+                    <li><a property="url" href="imprint.html">Imprint</a></li>
+                    <li><a property="url" href="privacy.html">Privacy</a></li>
+                    <li><a property="url" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
