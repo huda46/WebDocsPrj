@@ -40,7 +40,6 @@ h1,h2{
 
 img{
     max-width: 80vw;
-    background-color: black;
 }
 
 .location {
@@ -72,7 +71,7 @@ img{
 
 
 
-#top-row-img{;
+#top-row-img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap ;
