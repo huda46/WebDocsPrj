@@ -25,11 +25,13 @@
 /* The dropdown container */
 .dropdown {
     float: right;
-    overflow: hidden;
+
 }
 
-:focus {
-
+.navbar a:focus, .dropbtn:focus {
+    background-color: #F5F410;
+    color: black;
+    outline: none;
 }
 /* Dropdown button */
 .dropbtn {
