@@ -5,37 +5,40 @@
     <title>Ostkreuz Woman - BeFit</title>
     <meta name="description" content="Welcome to our exclusive women's gym center located in the vibrant neighborhood of Ostkreuz, Germany! Our facility is designed specifically for women and offers a supportive and empowering environment for women to reach their fitness goals. With a wide range of equipment, classes, and services, our gym has everything you need to achieve your health and wellness aspirations. Our state-of-the-art machines, free weights, and group exercise classes are all designed to help you achieve your desired results, while our knowledgeable and friendly staff is always on hand to offer guidance and support. Whether you're a beginner or a seasoned gym-goer, our women's-only gym is the perfect place to feel confident, empowered, and motivated. Visit us today and start your journey to a healthier and happier you!" />
     <meta name="keywords" content="Fitness, Exercise, Workout, Equipment, Classes, Personal training, Weight loss, Muscle building, Healthy lifestyle, Amenities, Certified professionals, Supportive environment, Cardio machines, Group exercise, Locker rooms, Showers, Juice bar, One-on-one guidance." />
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="../logos/favicon.ico">
+    <link rel="mask-icon" href="../logos/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="../logos/apple-touch-icon.png">
+    <link rel="manifest" href="../logos/manifest.json">
     <link rel="stylesheet" href="../CSS/footer.css" />
     <link rel="stylesheet" href="../CSS/container-place.css" />
     <link rel="stylesheet" href="../CSS/nav-bar.css" />
     <link rel="stylesheet" href="../CSS/course-plan.css" />
-    <link rel="icon" href="assignment2a/website-content/Logo.jpeg" />
-    <script src="https://kit.fontawesome.com/38db35dbd3.js" crossorigin="anonymous"></script>
     <script src="../JS/functions.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<body>
+<body typeof="ExerciseGym" vocab="http://schema.org/">
 
 <header>
     <div id="logo">
-        <img alt="BeFit" src="../assignment2a/website-content/Logo.jpeg" class="img-fluid">
+        <img property="logo" alt="BeFit" src="../assignment2a/website-content/Logo.jpeg" class="img-fluid">
     </div>
     <nav>
         <div class="navbar">
-            <a href="../index.html">Home</a>
-            <a href="../index.html#services">Services</a>
-            <a href="../products/ourProducts.html">Our Products</a>
-            <a href="../about.html">About</a>
+            <a property="url" href="../index.html">Home</a>
+            <a property="url" href="../index.html#services">Services</a>
+            <a property="url" href="../products/ourProducts.html">Our Products</a>
+            <a property="url" href="../about.html">About</a>
             <div class="dropdown">
                 <button class="dropbtn">&#9660;Studios
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="cottbus.html">Cottbus</a>
-                    <a href="potsdam.html">Potsdam</a>
-                    <a href="ostkreuz.html">Ostkreuz</a>
-                    <a href="ostkreuzWoman.html">Ostkreuz <br>Woman</a>
+                    <a property="url" href="cottbus.html">Cottbus</a>
+                    <a property="url" href="potsdam.html">Potsdam</a>
+                    <a property="url" href="ostkreuz.html">Ostkreuz</a>
+                    <a property="url" href="ostkreuzWoman.html">Ostkreuz <br>Woman</a>
                 </div>
             </div>
         </div>
@@ -43,10 +46,10 @@
 </header>
 <nav id="breadcrumb" ></nav>
 <main>
-    <h1>Ostkreuz Woman</h1>
+    <h1 property="name">Ostkreuz Woman</h1>
     <div>
         <div class="container center-image">
-            <img class="register-img" src="../assignment2a/website-content/Images/ostkreuz.jpg" alt="Ostkreuz Woman">
+            <img property="image" class="register-img" src="../assignment2a/website-content/Images/ostkreuz.jpg" alt="Ostkreuz Woman">
             <div class="text-position-in-image">Aktion! Only for a short time!</div>
             <button onclick="window.location.href='../memberships/registration.html';" class="btn">Registration now!</button>
         </div>
@@ -63,13 +66,13 @@
                 <p>
                     You can find us here:
                 </p>
-                <p>
+                <p property="telephone">
                     Tel: 030-41 20 62 32</p>
-                <p>Müllerstraße 36 13353 Berlin U-Bhf. Seestraße</p>
-                <p>Mon - Fri 7-23 h
+                <p property="address">Müllerstraße 36 13353 Berlin U-Bhf. Seestraße</p>
+                <p property="openingHours">Mon - Fri 7-23 h
                     Sat - Sun 9-22 h</p>
             </fieldset>
-                <fieldset>
+                <fieldset property="priceRange">
                     <legend><h2>Prices</h2></legend>
                     <p>Basic - 19,90€/month</p>
                     <p>All inclusive - 29,90€/month</p>
@@ -192,43 +195,43 @@
         <div>
             <p>Studios</p>
             <ul class="footer_link">
-                <li><a href="cottbus.html">Cottbus</a></li>
-                <li><a href="potsdam.html">Potsdam</a></li>
-                <li><a href="ostkreuz.html">Ostkreuz</a></li>
-                <li><a href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
+                <li><a property="url" href="cottbus.html">Cottbus</a></li>
+                <li><a property="url" href="potsdam.html">Potsdam</a></li>
+                <li><a property="url" href="ostkreuz.html">Ostkreuz</a></li>
+                <li><a property="url" href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
             </ul>
         </div>
 
         <div>
             <p>Services</p>
-            <ul class="footer_services">
-                <li>Fitness equipements</li>
-                <li>Cardio</li>
-                <li>Courses</li>
-                <li>Spa</li>
-                <li>Sauna</li>
-                <li>Drinks</li>
-                <li>WIFI</li>
+            <ul property="hasOfferCatalog" typeof="OfferCatalog" class="footer_services">
+                <li property="itemOffered" typeof="Service"><span property="name">Fitness equipements</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Cardio</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Courses</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Spa</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Sauna</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Drinks</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">WIFI</span></li>
             </ul>
         </div>
         <div>
             <p>Information</p>
             <ul class="">
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../termsOfServices.html">Terms of Services</a></li>
-                <li><a href="../imprint.html">Imprint</a></li>
-                <li><a href="../privacy.html">Privacy</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a property="url" href="../about.html">About</a></li>
+                <li><a property="url" href="../termsOfServices.html">Terms of Services</a></li>
+                <li><a property="url" href="../imprint.html">Imprint</a></li>
+                <li><a property="url" href="../privacy.html">Privacy</a></li>
+                <li><a property="url" href="../contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
     <div>
         <h2 class="social"> Connect with us</h2>
         <div class="social flex-items">
-            <i class="fa-brands fa-facebook icons"></i>
-            <i class="fa-brands fa-instagram icons"></i>
-            <i class="fa-brands fa-twitter icons"></i>
-            <i class="fa-brands fa-snapchat icons"></i>
+            <img class="icons" src="../logos/facebook.svg" alt="facebook logo">
+            <img class="icons" src="../logos/instagram.svg" alt="instagram logo">
+            <img class="icons" src="../logos/twitter.svg" alt="twitter logo">
+            <img class="icons" src="../logos/snapchat.svg" alt="snapchat logo">
         </div>
     </div>
 </footer>

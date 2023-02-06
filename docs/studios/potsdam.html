@@ -7,36 +7,39 @@
     <meta name="description" content="Welcome to our state-of-the-art gym center located in the heart of Potsdam, Germany! Our facility is designed with your health and fitness in mind, offering a wide range of equipment, classes, and services to help you achieve your goals. Whether you're a seasoned gym-goer or just starting out, our friendly and knowledgeable staff is here to support you every step of the way. With cutting-edge workout machines, free weights, group exercise classes, and personal training services, our gym has everything you need to achieve your fitness aspirations. Come visit us today and discover the best workout experience Potsdam has to offer!" />
     <meta name="keywords" content="Fitness, Exercise, Workout, Equipment, Classes, Personal training, Weight loss, Muscle building, Healthy lifestyle, Amenities, Certified professionals, Supportive environment, Cardio machines, Group exercise, Locker rooms, Showers, Juice bar, One-on-one guidance." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="../logos/favicon.ico">
+    <link rel="mask-icon" href="../logos/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="../logos/apple-touch-icon.png">
+    <link rel="manifest" href="../logos/manifest.json">
     <link rel="stylesheet" href="../CSS/footer.css" />
     <link rel="stylesheet" href="../CSS/container-place.css" />
     <link rel="stylesheet" href="../CSS/nav-bar.css" />
     <link rel="stylesheet" href="../CSS/course-plan.css" />
-    <link rel="icon" href="../assignment2a/website-content/Logo.jpeg" />
-    <script src="https://kit.fontawesome.com/38db35dbd3.js" crossorigin="anonymous"></script>
     <script src="../JS/functions.js"></script>
 </head>
 
-<body>
+<body typeof="ExerciseGym" vocab="http://schema.org/">
 
     <header>
         <div id="logo">
-            <img src="../assignment2a/website-content/Logo.jpeg" alt="logo" class="img-fluid">
+            <img property="logo" alt="BeFit" src="../assignment2a/website-content/Logo.jpeg" alt="logo" class="img-fluid">
         </div>
         <nav>
             <div class="navbar">
-                <a href="../index.html">Home</a>
-                <a href="../index.html#services">Services</a>
-                <a href="../products/ourProducts.html">Our Products</a>
-                <a href="../about.html">About</a>
+                <a property="url" href="../index.html">Home</a>
+                <a property="url" href="../index.html#services">Services</a>
+                <a property="url" href="../products/ourProducts.html">Our Products</a>
+                <a property="url" href="../about.html">About</a>
                 <div class="dropdown">
                     <button class="dropbtn">&#9660;Studios
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="cottbus.html">Cottbus</a>
-                        <a href="potsdam.html">Potsdam</a>
-                        <a href="ostkreuz.html">Ostkreuz</a>
-                        <a href="ostkreuzWoman.html">Ostkreuz <br>Woman</a>
+                        <a property="url" href="cottbus.html">Cottbus</a>
+                        <a property="url" href="potsdam.html">Potsdam</a>
+                        <a property="url" href="ostkreuz.html">Ostkreuz</a>
+                        <a property="url" href="ostkreuzWoman.html">Ostkreuz <br>Woman</a>
                     </div>
                 </div>
             </div>
@@ -44,10 +47,10 @@
     </header>
     <nav id="breadcrumb" ></nav>
     <main>
-        <h1>Potsdam</h1>
+        <h1 property="name">Potsdam</h1>
         <div>
             <div class="container center-image">
-                <img class="register-img" src="../assignment2a/website-content/Images/potsdam2.jpg" alt="potsdam">
+                <img property="image" class="register-img" src="../assignment2a/website-content/Images/potsdam2.jpg" alt="potsdam">
                 <div class="text-position-in-image" >Aktion! Only for a short time!</div>
                 <button onclick="window.location.href='../memberships/registration.html';" class="btn" type="button">Registration now!</button>
             </div>
@@ -64,13 +67,13 @@
                     <p>
                         You can find us here:
                     </p>
-                    <p>
+                    <p property="telephone">
                         Tel: 030-68 08 44 04</p>
-                    <p>Rollbergstraße 2-8 12053 Berlin</p>
-                    <p>Mon - Fri 7-23 h
+                    <p property="address">Rollbergstraße 2-8 12053 Berlin</p>
+                    <p property="openingHours">Mon - Fri 7-23 h
                         Sat - Sun 9-22 h</p>
                 </fieldset>
-                <fieldset>
+                <fieldset property="priceRange">
                     <legend><h2>Prices</h2></legend>
                     <p>Basic - 19,90€/month</p>
                     <p>All inclusive - 29,90€/month</p>
@@ -174,43 +177,43 @@
             <div>
                 <p>Studios</p>
                 <ul class="footer_link">
-                    <li><a href="cottbus.html">Cottbus</a></li>
-                    <li><a href="potsdam.html">Potsdam</a></li>
-                    <li><a href="ostkreuz.html">Ostkreuz</a></li>
-                    <li><a href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
+                    <li><a property="url" href="cottbus.html">Cottbus</a></li>
+                    <li><a property="url" href="potsdam.html">Potsdam</a></li>
+                    <li><a property="url" href="ostkreuz.html">Ostkreuz</a></li>
+                    <li><a property="url" href="ostkreuzWoman.html">Ostkreuz Woman</a></li>
                 </ul>
             </div>
 
             <div>
                 <p>Services</p>
-                <ul class="footer_services">
-                    <li>Fitness equipements</li>
-                    <li>Cardio</li>
-                    <li>Courses</li>
-                    <li>Spa</li>
-                    <li>Sauna</li>
-                    <li>Drinks</li>
-                    <li>WIFI</li>
-                </ul>
+                <ul property="hasOfferCatalog" typeof="OfferCatalog" class="footer_services">
+                <li property="itemOffered" typeof="Service"><span property="name">Fitness equipements</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Cardio</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Courses</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Spa</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Sauna</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Drinks</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">WIFI</span></li>
+            </ul>
             </div>
             <div>
                 <p>Information</p>
                 <ul class="">
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../termsOfServices.html">Terms of Services</a></li>
-                    <li><a href="../imprint.html">Imprint</a></li>
-                    <li><a href="../privacy.html">Privacy</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a property="url" href="../about.html">About</a></li>
+                    <li><a property="url" href="../termsOfServices.html">Terms of Services</a></li>
+                    <li><a property="url" href="../imprint.html">Imprint</a></li>
+                    <li><a property="url" href="../privacy.html">Privacy</a></li>
+                    <li><a property="url" href="../contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
         <div>
             <h2 class="social"> Connect with us</h2>
             <div class="social flex-items">
-                <i class="fa-brands fa-facebook icons"></i>
-                <i class="fa-brands fa-instagram icons"></i>
-                <i class="fa-brands fa-twitter icons"></i>
-                <i class="fa-brands fa-snapchat icons"></i>
+                <img class="icons" src="../logos/facebook.svg" alt="facebook logo">
+                <img class="icons" src="../logos/instagram.svg" alt="instagram logo">
+                <img class="icons" src="../logos/twitter.svg" alt="twitter logo">
+                <img class="icons" src="../logos/snapchat.svg" alt="snapchat logo">
             </div>
         </div>
     </footer>

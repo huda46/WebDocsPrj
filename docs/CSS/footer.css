@@ -28,6 +28,8 @@ footer>div:nth-child(1) {
 }
 .icons{
     padding: 0 10px;
+    max-height: 50px;
+    max-width: 50px;
 }
 
 ul {
