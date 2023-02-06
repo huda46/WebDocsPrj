@@ -118,7 +118,12 @@ function load_location(id) {
         default:
             break;
     }
+}
 
+function dropdown() {
+
+    var visible = document.getElementsByClassName("menu1");
+    visible[0].classList.toggle("show");
 
 }
 
