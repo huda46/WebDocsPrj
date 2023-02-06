@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>BeFit</title>
+    <meta name="description" content="BeFit provides members with access to exercise equipment, classes, and personal training services. The goal of our service is to provide a comfortable and supportive environment for individuals to achieve their fitness goals, whether that means losing weight, building muscle, or simply maintaining a healthy lifestyle. We offer a variety of workout equipment, such as weights, cardio machines, and group exercise classes, as well as amenities like locker rooms, showers, and juice bars. Personal training services are often available for an additional fee, providing members with one-on-one guidance and support from certified fitness professionals." />
+    <meta name="keywords" content="Fitness, Exercise, Workout, Equipment, Classes, Personal training, Weight loss, Muscle building, Healthy lifestyle, Amenities, Certified professionals, Supportive environment, Cardio machines, Group exercise, Locker rooms, Showers, Juice bar, One-on-one guidance." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="logos/favicon.ico">
+    <link rel="mask-icon" href="logos/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="logos/apple-touch-icon.png">
+    <link rel="manifest" href="logos/manifest.json">
+    <link rel="stylesheet" href="CSS/nav-bar.css"/>
+    <link rel="stylesheet" href="CSS/beFit.css">
+    <link rel="stylesheet" href="CSS/footer.css"/>
+    <script src="JS/functions.js"></script>
+</head>
+<body typeof="ExerciseGym" vocab="http://schema.org/">
+
+<header>
+
+    <div id="logo">
+            <img property="logo" src="assignment2a/website-content/Logo.jpeg" alt="BeFit" class="img-fluid" width="70">
+    </div>
+    <nav>
+        <div class="navbar">
+            <a property="url" href="index.html">Home</a>
+            <a property="url" href="index.html#services">Services</a>
+            <a property="url" href="products/ourProducts.html">Our Products</a>
+            <a property="url" href="about.html">About</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="dropdown()">&#9660;Studios
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div  class="dropdown-content menu1">
+                    <a property="url" href="studios/cottbus.html"><span property="location">Cottbus</span></a>
+                    <a property="url" href="studios/potsdam.html"><span property="location">Potsdam</span></a>
+                    <a property="url" href="studios/ostkreuz.html"><span property="location">Ostkreuz</span></a>
+                    <a property="url" href="studios/ostkreuzWoman.html"><span property="location">Ostkreuz <br>Woman</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<nav id="breadcrumb" ></nav>
+<main>
+    <h1 property="name legalName">BeFit</h1>
+    <h2>Get fit with us!</h2>
+    <div id="outer-video">
+        <video id="commercial" controls>
+            <source src="assignment2a/website-content/Images/A%20Fitness%20Commercial%20(BMPCC4k).mov" type="video/mov">
+            <source src="assignment2a/website-content/Images/A%20Fitness%20Commercial%20(BMPCC4k).mp4" type="video/mp4">
+        </video>
+        <p id="video-text">
+            Aktion on all our studios!<br/>
+            Only for a short time!<br/>
+            Secure now!
+        </p>
+    </div>
+    <div ID="our-location">
+        <h2>Our Locations</h2>
+        <div class="location-button">
+            <a property="url" href="studios/cottbus.html"><img property="image" alt="cottbus" src="assignment2a/website-content/Images/cottbus.jpg" height="100em">
+                <p property="location" class="location">Cottbus</p></a>
+            <a property="url" href="studios/potsdam.html"><img property="image" alt="Potsdam" src="assignment2a/website-content/Images/potsdam.jpg" height="100em">
+                <p property="location" class="location">Potsdam</p></a>
+            <a property="url" href="studios/ostkreuz.html"><img property="image" alt="Ostkreuz" src="assignment2a/website-content/Images/ostkreuz2.jpg" height="100em">
+                <p property="location" class="location">Ostkreuz</p></a>
+            <a property="url" href="studios/ostkreuzWoman.html"><img property="image" alt="Ostkreuz Woman" src="assignment2a/website-content/Images/ostkreuz.jpg" height="100em">
+                <p property="location" class="location">Ostkreuz Woman</p></a>
+        </div>
+    </div>
+    <div class="content">
+
+        <div id="services">
+            <h2>Our Services</h2>
+            <div id="top-row-img">
+                <div id="parking-subway">
+                    <img property="image" alt="Always near U-Bahns" src="assignment2a/website-content/Images/ubahn.jpg" height="100em">
+                    <img property="image" alt="Free Parking Places" src="assignment2a/website-content/Images/parking.jpg" height="100em">
+                </div>
+                <div>
+                    <img property="image" alt="Courses, Fitness, Cardio, Boxing" class="img_ratio_1-1"
+                         src="assignment2a/website-content/Images/gym.jpg"  height="100em">
+                </div>
+            </div>
+            <div id="bottom-row-img">
+                <div>
+                    <img property="image" alt="Wellness, Spa, Swimming Pool" class="img_ratio_1-1"
+                         src="assignment2a/website-content/Images/spa.jpg"  height="100em">
+                </div>
+                <div>
+                    <img property="image" alt="Drinks, Lounge, WIFI" class="img_ratio_1-1"
+                         src="assignment2a/website-content/Images/fitnessgirl.jpg"  height="100em">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>introduction</h2>
+            <p id="home-text">In 2003, the first "<span property="name legalName" class="bf">BeFit</span> Fitness Studio" opened its doors in
+                Ostkreuz
+                under the name "Get Fit First".<br>
+                <br>
+                The small, family-run gym came to life in a former tennis hall.
+                For only 10 EURO per month, it was affordable for young and old and
+                quickly developed into a popular meeting place. Expansion occurred
+                and the popular family atmosphere of the "Get Fit First" gyms
+                reached other districts in Berlin and Brandenburg.<br>
+                <br>
+                Over time, the previously exclusive fitness offering was expanded to
+                include saunas, showers and trainer support, as well as wi-fi and a
+                variety of courses. We were one of the first fitness centres to offer a
+                flat rate for drinks.<br>
+                <br>
+                In the studios, customers always called us "<span property="name legalName" class="bf">BeFit</span>" for short, so it
+                became "<span property="name legalName" class="bf">BeFit</span>". To this day, the family-run "<span property="name legalName" class="bf">BeFit</span>
+                Fitnessclub" stands
+                for a family atmosphere, good value for money and personal care.
+                We offer a variety of people a meeting place and not just an
+                anonymous fitness hall. We look forward to being or becoming this
+                meeting place for you in the future.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div>
+            <p>Studios</p>
+            <ul class="footer_link">
+                <li><a property="url" href="studios/cottbus.html"><span property="location">Cottbus</span></a></li>
+                <li><a property="url" href="studios/potsdam.html"><span property="location">Potsdam</span></a></li>
+                <li><a property="url" href="studios/ostkreuz.html"><span property="location">Ostkreuz</span></a></li>
+                <li><a property="url" href="studios/ostkreuzWoman.html"><span property="location">Ostkreuz Woman</span></a></li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Services</p>
+            <ul property="hasOfferCatalog" typeof="OfferCatalog" class="footer_services">
+                <li property="itemOffered" typeof="Service"><span property="name">Fitness equipements</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Cardio</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Courses</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Spa</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Sauna</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Drinks</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">WIFI</span></li>
+            </ul>
+        </div>
+        <div>
+            <p>Information</p>
+            <ul class="">
+                <li><a property="url" href="about.html">About</a></li>
+                <li><a property="url" href="termsOfServices.html">Terms of Services</a></li>
+                <li><a property="url" href="imprint.html">Imprint</a></li>
+                <li><a property="url" href="privacy.html">Privacy</a></li>
+                <li><a property="url" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 class="social"> Connect with us</h2>
+        <div class="social flex-items">
+            <img class="icons" src="./logos/facebook.svg" alt="facebook logo"  height="20em">
+            <img class="icons" src="./logos/instagram.svg" alt="instagram logo" height="20em">
+            <img class="icons" src="./logos/twitter.svg" alt="twitter logo" height="20em">
+            <img class="icons" src="./logos/snapchat.svg" alt="snapchat logo" height="20em">
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

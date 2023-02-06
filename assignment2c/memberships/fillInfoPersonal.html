@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="UTF-8">
+    <title>Application - BeFit</title>
+    <meta name="description" content="Thank you for your interest in BeFit gym center! In order to help us better serve you, please take a moment to fill out our contact form. We kindly ask for your full name, email address, and phone number so that we can get in touch with you as soon as possible. Additionally, you may include any questions or comments you may have in the message box. Our knowledgeable and friendly staff will be more than happy to assist you and provide you with the information you need. Thank you for choosing BeFit, and we look forward to hearing from you soon!" />
+    <meta name="keywords" content="Fitness, Exercise, Workout, Equipment, Classes, Personal training, Weight loss, Muscle building, Healthy lifestyle, Amenities, Certified professionals, Supportive environment, Cardio machines, Group exercise, Locker rooms, Showers, Juice bar, One-on-one guidance." />
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="../logos/favicon.ico">
+    <link rel="mask-icon" href="../logos/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="../logos/apple-touch-icon.png">
+    <link rel="manifest" href="../logos/manifest.json">
+    <link rel="stylesheet" href="../CSS/fillInfoPersonal.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/nav-bar.css" />
+    <script src="../JS/functions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body vocab="http://schema.org/">
+
+<header>
+    <div id="logo">
+        <img property="logo" alt="BeFit" src="../assignment2a/website-content/Logo.jpeg" class="img-fluid" width="70">
+    </div>
+    <nav>
+        <div class="navbar">
+            <a property="url" href="../index.html">Home</a>
+            <a property="url" href="../index.html#services">Services</a>
+            <a property="url" href="../products/ourProducts.html">Our Products</a>
+            <a property="url" href="../about.html">About</a>
+            <div class="dropdown">
+                <button   class="dropbtn" onclick="dropdown()">&#9660;Studios
+                </button>
+                <div  class="dropdown-content menu1">
+                    <a property="url" href="../studios/cottbus.html">Cottbus</a>
+                    <a property="url" href="../studios/potsdam.html">Potsdam</a>
+                    <a property="url" href="../studios/ostkreuz.html">Ostkreuz</a>
+                    <a property="url" href="../studios/ostkreuzWoman.html">Ostkreuz <br>Woman</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<nav id="breadcrumb" onload="load_location()" >
+
+</nav>
+    <main class="colorMain">
+        <h1>Application</h1>
+        <div class="horizontalContainer formBox">
+            <p class="formTitle">Please fill out the information below</p>
+            <input class="formField formFieldName" type="text" id="fname" placeholder="First Name">
+            <input class="formField formFieldName" type="text" id="lname" placeholder="Last Name">
+            <input class="formField formFieldBirth" type="text" id="birth" placeholder="Date of Birth">
+            <input class="formField formEmpty" type="text" disabled placeholder="">
+            <input class="formField formFieldStreet" type="text" id="street" placeholder="Street">
+            <input class="formField formFieldStreetNum" type="text" id="streetnum" placeholder="Nº">
+            <input class="formField formFieldPostal" type="text" id="postal" placeholder="Postcode">
+            <input class="formField formFieldCity" type="text" id="city" placeholder="City">
+            <input class="formField" type="text" id="email" placeholder="Email address">
+            <button onclick="window.location.href='fillInfoPersonal.html';">Send</button>
+            <p class="formText">*An email with your data will be sent to us so we have your contract ready for your first day.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <p>Studios</p>
+                <ul class="footer_link">
+                    <li><a property="url" href="../studios/cottbus.html">Cottbus</a></li>
+                    <li><a property="url" href="../studios/potsdam.html">Potsdam</a></li>
+                    <li><a property="url" href="../studios/ostkreuz.html">Ostkreuz</a></li>
+                    <li><a property="url" href="../studios/ostkreuzWoman.html">Ostkreuz Woman</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <p>Services</p>
+                <ul property="hasOfferCatalog" typeof="OfferCatalog" class="footer_services">
+                <li property="itemOffered" typeof="Service"><span property="name">Fitness equipements</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Cardio</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Courses</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Spa</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Sauna</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">Drinks</span></li>
+                <li property="itemOffered" typeof="Service"><span property="name">WIFI</span></li>
+            </ul>
+            </div>
+            <div>
+                <p>Information</p>
+                <ul class="">
+                    <li><a property="url" href="../about.html">About</a></li>
+                    <li><a property="url" href="../termsOfServices.html">Terms of Services</a></li>
+                    <li><a property="url" href="../imprint.html">Imprint</a></li>
+                    <li><a property="url" href="../privacy.html">Privacy</a></li>
+                    <li><a property="url" href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2 class="social"> Connect with us</h2>
+            <div class="social flex-items">
+                <img class="icons" src="../logos/facebook.svg" alt="facebook logo" height="20">
+                <img class="icons" src="../logos/instagram.svg" alt="instagram logo" height="20">
+                <img class="icons" src="../logos/twitter.svg" alt="twitter logo" height="20">
+                <img class="icons" src="../logos/snapchat.svg" alt="snapchat logo" height="20">
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

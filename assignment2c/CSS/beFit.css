@@ -1,0 +1,142 @@
+h1,h2{
+    text-align: center;
+}
+#our-location{
+    margin: 0 auto;
+    width: 80vw;;
+    background-color:#EDEDED;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/* the buttons to the locations */
+.location-button{
+    display: flex;
+    justify-content: center;
+
+
+    flex-wrap: wrap;
+
+}
+.location-button > a > img {
+    height: 10em;
+    object-fit: cover;
+    object-position: top center;
+    margin: 0.5em;
+    border-radius: 10px;
+    border: 0.1em solid black;
+
+
+}
+
+.location-button > a {
+    text-decoration: none;
+}
+
+.location-button > a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+
+img{
+    max-width: 80vw;
+}
+
+.location {
+    position: relative;
+    top: -50%;
+    margin: 0 auto;
+    color: #333333;
+    background: #dddddd;
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+    font-family: Arial;
+    text-decoration: none;
+
+}/* the buttons to the locations */
+
+/* Text and the imgs next to it */
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #EDEDED;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80vw;
+
+}
+
+
+
+#top-row-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+#parking-subway > img{
+    display: flex;
+    flex-direction: column;
+   aspect-ratio: 2/1;
+    justify-content: space-around;
+    height: 6em;
+    border: 0.2em solid #EDEDED;
+}
+#bottom-row-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img_ratio_1-1{
+    aspect-ratio: 1/1;
+    height: 12em;
+    border: 0.2em solid #EDEDED;
+
+}
+
+#home-text{
+    max-width:500px;
+    margin: 10px;
+}/* Text and the imgs next to it */
+
+
+
+/* Video on page */
+#commercial{
+    display: block;
+    margin: 0 auto;
+}
+
+
+video{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80vw;
+    border-style: solid;
+    background-color: black;
+}
+
+#video-text{
+    font-family: "Century";
+    font-size: clamp(0.4rem, 2.5vw, 7rem);
+    text-align: center;
+    top: 0;
+    color: #F5F410;
+    position: absolute;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    user-select: none;
+}
+
+#outer-video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}/* Video on page */
+
+
+

@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/css2?family=Lora&display=swap";
+/* stylesheet for termsOfserfices, privacy, imprint */
+main{
+    margin: 10px;
+    padding: 20px 20px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+
+}
+h1{
+    font-family:    Lora ;
+}
+@media screen and (max-width: 768px) {
+    main {
+        margin: 5px;
+        border-radius: 5px;
+    }
+}

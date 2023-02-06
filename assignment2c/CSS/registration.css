@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+}
+
+main {
+    padding-top: 10px;
+}
+
+main h2 {
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+main.colorMain {
+    margin: 10px;
+    border-radius: 10px;
+    background: rgba(245,244,16,255);
+}
+
+.horizontalContainer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.descBox {
+    border: 1px;
+    margin: 50px;
+    height: 420px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+    background: white;
+}
+
+div.descBox p.descTitle {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
+div.descBox div.descTextContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 35%;
+}
+
+div.descBox p.descText {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+div.descBox p.descPrice {
+    margin: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: red;
+}
+
+div.descBox p.divLine {
+    width: 70%;
+    background: rgb(201, 201, 201);
+    height: 1px;
+    margin: 0px
+    auto 22.5px
+}
+
+div.descBox button.selectProd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 50%;
+    border-radius: 10px;
+    /*box-shadow: 0px 0px 10px #888888;*/
+    font-family: Arial;
+    font-size: 1rem;
+    border: 2px solid;
+}
+
+div.descBox button:hover {
+    background: rgba(245,244,16,255);
+}
