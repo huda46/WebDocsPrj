@@ -96,3 +96,23 @@ a navigation menu, modern feeling, computer and mobile friendly.</li>
         <th>Phong Vu Thanh</th>
     </tr>
 </table>
+
+### Improvement [Developers]
+<table>
+    <tr>
+        <th>Task</th>
+        <th>Responsible person</th>
+    </tr>
+    <tr>
+        <th>Step 3 (SEO)</th>
+        <th>Yu-Chieh Lin</th>
+    </tr>
+    <tr>
+        <th>Step 2 (Make website work without CSS, add breadcrumb, etc.)</th>
+        <th>Luke William Nitschke</th>
+    </tr>
+    <tr>
+        <th>Step 1(Apply correction according to feedback)</th>
+        <th>Phong Vu Thanh</th>
+    </tr>
+</table>
